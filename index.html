@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>html_template — Simple Page</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#e6eef8;background:linear-gradient(180deg,var(--bg),#071026);display:flex;align-items:center;justify-content:center}
+    .card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.04);padding:28px;border-radius:12px;max-width:760px;width:90%;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    h1{margin:0 0 8px;font-size:28px}
+    p{margin:0 0 16px;color:var(--muted)}
+    a.raw{display:inline-block;padding:10px 14px;background:linear-gradient(90deg,var(--accent),#7c3aed);color:#021024;border-radius:8px;font-weight:600;text-decoration:none}
+    footer{margin-top:12px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Simple HTML page for html_template</h1>
+    <p>This repository now contains a lightweight index.html you can share as a raw link. Click the button below to open the raw HTML file in your browser (it should render as a webpage).</p>
+    <p>
+      <a class="raw" href="https://raw.githubusercontent.com/Nautiyalmukesh2001/html_template/main/index.html" target="_blank" rel="noreferrer">Open raw HTML (renders in browser)</a>
+    </p>
+    <footer>If that raw URL does not render as a site in some contexts, consider enabling GitHub Pages (Settings → Pages) or use the GitHub Pages URL.</footer>
+  </div>
+</body>
+</html>
